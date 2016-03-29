@@ -1,0 +1,10 @@
+{
+  "name": "img",
+  "version": "0.0.1",
+  "description": "picam.austingriffith.com",
+  "main": "server.js",
+  "author": "austin griffith",
+  "dependencies": {
+      "jquery": "^2.2.1"
+  }
+}
