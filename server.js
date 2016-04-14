@@ -54,9 +54,10 @@ module.exports = {
                 console.log("unlinking "+filename);
                 fs.unlink(filename,function(){
                     console.log("done");
+
                 });
             }
-            res.send("thanks");
+            res.redirect("/");
         });
     }
 };
